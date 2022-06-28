@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* LOGO */
+#logo-image{
+    height: 113px;
+    width:351px;
+}
+
+#logo{
+    text-align: center;
+    height: 113px;
+    width:1520px;
+}
+
+
+.main {
+    width: 1363px;
+    margin: 0 auto;
+}
+
+/* SEARCHBAR */
+.searchbox{
+    height: 90px;
+    width: 100%;
+    margin: 3px auto;
+    text-align: center;
+    background-color: rgb(226, 224, 224);
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px;
+}
+
+.searchbox input{
+    height:25px;
+    width:303px;
+    border:2px inset #767676;
+    padding: 1px 2px;
+    margin: 2px auto;
+    cursor: text;
+    font-size: 13.33px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}   
+
+
+.buttons button:first-child{
+    height:25px;
+    width:120px;
+    border:2px outset #767676;
+    background-color: #E5E5E5;
+    padding: 1px 6px;
+    font-size: 13.33px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons a {
+    text-decoration: none;
+    
+}
+
+.buttons a:visited, .buttons a:link{
+    color: black
+}
+.buttons button:last-child{
+    height:25px;
+    width:120px;
+    border:2px outset #767676;
+    background-color: #E5E5E5;
+    padding: 1px 6px;
+    font-size: 13.33px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* LINKS */
+.links{
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+          
+}
+
+.links-searches {
+    height: 100%;
+    width: 496px;
+    background-color: #7EE5DA;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    
+    
+}
+
+
+
+.links-google {
+    height: 100%;
+    width: 268px;
+    background-color: #70CCC2;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin: 0 2px;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+
+}
+
+
+
+.links-input {
+    height: 100%;
+    width: 595px;
+    background-color: rgb(98,179,170);
+    float: left;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 0;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    
+    
+
+}
+
+.links-input input {
+    height: 25px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#links-input-button{
+    height: 25px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: start;
+    
+}
+
+#links-input-button button {
+    height: 25px;
+    width: 50%;
+    margin-right: 5vw;
+}
+
+
+/* FOOTER */
+#footer {
+    margin-top: 10px;
+    text-align: center;
+}
